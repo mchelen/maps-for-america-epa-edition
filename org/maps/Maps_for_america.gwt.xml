@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.6.4//EN" "http://google-web-toolkit.googlecode.com/svn/tags/1.6.4/distro-source/core/src/gwt-module.dtd">
+<module rename-to='maps_for_america'>
+	<inherits name="com.google.gwt.maps.GoogleMaps" />
+	
+	<script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2&amp;key=ABQIAAAAMlY6S6J86-a2ByOAorxctxT6yOSGGgxUlfxUnqRG7KLt267SOBRCOA4UdPUfshIyyeo_f9nJ0CnjlQ"/>
+	<!-- Inherit the core Web Toolkit stuff.                        -->
+	<inherits name='com.google.gwt.user.User' />
+	<inherits name="com.google.gwt.http.HTTP"/>
+
+	<!-- Other module inherits                                      -->
+	<inherits name='com.extjs.gxt.ui.GXT'/>
+	<!--<inherits name='com.extjs.gxt.charts.Chart' /> -->
+	<!-- Specify the app entry point class.                         -->
+	<entry-point class='org.maps.client.Maps' />
+
+	
+</module>
